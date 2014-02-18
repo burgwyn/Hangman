@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hangman</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_game_end">Forfeit Game</string>
+    <string name="title_activity_game">Hangman</string>
+    <string name="btnGuess">Guess</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="dialog_guess_title">Guess</string>
+    <string name="txtWord">____</string>
+    <string name="imgGameBoard_contentDescription_0">Empty gallows</string>
+    <string name="imgGameBoard_contentDescription_1">Gallows with head</string>
+    <string name="imgGameBoard_contentDescription_2">Gallows with head, torso</string>
+    <string name="imgGameBoard_contentDescription_3">Gallows with head, torso, arm</string>
+    <string name="imgGameBoard_contentDescription_4">Gallows with head, torso, both arms</string>
+    <string name="imgGameBoard_contentDescription_5">Gallows with head, torso, both arms, leg</string>
+    <string name="imgGameBoard_contentDescription_6">Gallows with head, torso, both arms, both legs</string>
+    <string name="title_activity_hangman_preferences">Hangman Preferences</string>
+    <string name="preferences_category_word">Word</string>
+    <string name="preferences_category_word_length">Length</string>
+    <string name="game_end_confirm">Are you sure you want to forfeit?</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_no">No</string>
+    <string name="dialog_game_end_title">Forfeit Game</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="hangman">H_ngm_n</string>
+    <string name="btnNewGame">New Game</string>
+    <string name="btnResumeGame">Resume Game</string>
+    <string name="btnEndGame">Forfeit Game</string>
+	<string name="strWinner">Winner</string>
+	<string name="strLoser">Loser</string>
+	<string name="strForfeit">Forfeit</string>
+</resources>

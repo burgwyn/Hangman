@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/preferences_category_word">
+        
+    	<EditTextPreference android:key="length" android:title="@string/preferences_category_word_length" android:numeric="integer" android:defaultValue="4"/>    
+	  
+    </PreferenceCategory>
+	
+
+</PreferenceScreen>

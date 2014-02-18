@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="HangmanBaseTheme" parent="android:Theme.Light">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="HangmanAppTheme" parent="HangmanBaseTheme">
+       <item name="android:windowBackground">@color/backgroundGray</item>
+       <item name="android:textAppearance">@style/defaultText</item>
+       <!--<item name="android:buttonStyle">@style/defaultButton</item>-->
+    </style>
+</resources>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+    <TextView
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+     	android:text="@string/hangman"  
+     	android:paddingTop="20sp" 
+     	android:gravity="center"
+     	android:textSize="50sp" 
+     	android:id="@+id/txtBanner"
+        />
+    
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBanner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/hangman_0"
+        android:contentDescription="@string/imgGameBoard_contentDescription_0" />
+
+    <Button
+        android:id="@+id/btnResumeGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnResumeGame_onClick"
+        android:text="@string/btnResumeGame"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnEndGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnResumeGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:onClick="btnEndGame_onClick"
+        android:text="@string/btnEndGame"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:onClick="btnNewGame_onClick"
+        android:text="@string/btnNewGame"
+        android:visibility="invisible" />
+    
+</RelativeLayout>

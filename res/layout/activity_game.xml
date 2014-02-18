@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity" >
+
+    <ImageView
+        android:id="@+id/imgGameBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/hangman_0"
+        android:contentDescription="@string/imgGameBoard_contentDescription_0" />
+
+    <TextView
+        android:id="@+id/txtWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgGameBoard"
+        android:layout_alignRight="@+id/imgGameBoard"
+        android:layout_below="@+id/imgGameBoard"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textSize="48sp" />
+    
+    <TextView 
+        android:id="@+id/txtGuesses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/txtWord"
+        android:layout_alignRight="@+id/txtWord"
+        android:layout_below="@+id/txtWord"
+        android:gravity="center"
+        android:textSize="48sp"
+        android:minLines="2"
+        style="@style/redText" />
+    
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtGuesses"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="btnGuess_onClick"
+        android:text="@string/btnGuess" />
+
+</RelativeLayout>
